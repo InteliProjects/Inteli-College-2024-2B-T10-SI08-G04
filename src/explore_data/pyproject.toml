@@ -1,0 +1,28 @@
+[tool.pytest.ini_options]
+filterwarnings = ["ignore::Warning"]
+testpaths = ["./"]
+
+[tool.poetry]
+name = "Quartzo-Explore"
+version = "0.1.0"
+description = "Quartzo is a dataApp for CPTM"
+authors = ["Your Name <you@example.com>"]
+readme = "../README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.2"
+pandas = "^2.2.3"
+jupyter = "^1.1.1"
+pyarrow = "^17.0.0"
+plotly = "^5.24.1"
+pandoc = "^2.4"
+matplotlib = "^3.9.2"
+psycopg2 = "^2.9.10"
+psycopg2-binary = "^2.9.10"
+seaborn = "^0.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

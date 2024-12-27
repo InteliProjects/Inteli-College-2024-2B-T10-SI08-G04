@@ -1,0 +1,39 @@
+[tool.pytest.ini_options]
+filterwarnings = ["ignore::Warning"]
+testpaths = ["./"]
+
+[tool.poetry]
+name = "Quartzo-dataApp"
+version = "0.1.0"
+description = "Quartzo is a dataApp for CPTM"
+authors = ["Your Name <you@example.com>"]
+readme = "../README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+boto3 = "^1.35.44"
+pandoc = "^2.4"
+sqlalchemy = "^2.0.36"
+python-dotenv = "^1.0.1"
+clickhouse-driver = "^0.2.9"
+flask = "^3.0.3"
+pydantic = "^2.9.2"
+pydantic-settings = "^2.6.1"
+streamlit = "^1.40.2"
+moto = {extras = ["all"], version = "^5.0.21"}
+psycopg2-binary = "^2.9.10"
+pytest-mock = "^3.14.0"
+matplotlib = "^3.9.3"
+clickhouse-connect = "^0.8.9"
+pandas = "^2.2.3"
+plotly = "^5.24.1"
+streamlit-authenticator = "^0.4.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+moto = "^5.0.21"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,1 @@
+insert_data_ingestion = "INSERT INTO grupo4.data_ingestion (data_content, data_path, data_tag, id) VALUES" 

@@ -1,0 +1,79 @@
+#.gitignore criado com IA Generativa para ignorar todos os arquivos de dados e evitar vazamento
+
+# Ignorar arquivos CSV
+*.csv
+
+# Ignorar arquivos Excel
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.xltx
+*.xltm
+
+# Ignorar arquivos de texto com dados
+*.txt
+*.log
+*.dat
+
+# Ignorar arquivos de Spark
+*.parquet
+*.orc
+
+# Ignorar arquivos Hadoop
+*.hdfs
+*.sequence
+*.avro
+
+# Ignorar arquivos de banco de dados
+*.db
+*.sql
+*.sqlite
+*.db-journal
+
+# Ignorar arquivos de dados do SAS e SPSS
+*.sas7bdat
+*.xpt
+*.sav
+*.zsav
+
+# Ignorar arquivos de backup
+*.bak
+*.backup
+
+# Ignorar arquivos de dados em formato XML
+*.xml
+
+# Ignorar arquivos de dados comprimidos
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Ignorar arquivos de dados binários
+*.bin
+*.dat
+
+#ignorar a .env
+*.env
+.env
+**/*.env
+**/.env
+
+
+# Ignorar pastas de dependências e arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar arquivos de ambiente do Poetry
+poetry.lock
+
+# Ignorar pastas ocultas do sistema
+.DS_Store
+.pytest_cache
+
+#Ignorar arquivos de instalação linux
+*.whl
+*.tgz
